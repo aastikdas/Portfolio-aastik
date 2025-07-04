@@ -303,6 +303,8 @@ span{
 .skills_container{
     row-gap: 0;
 }
+
+   
 .skills_header{
     display: flex;
     align-items: center;
@@ -318,7 +320,7 @@ span{
     margin-right: var(--mb-0-25);
 }
 .skills_title{
-    font-size: 2rem;
+    font-size: 3rem;
 }
 .skills_arrow{
     margin-left: auto;
@@ -334,29 +336,43 @@ span{
     margin-bottom: var(--mb-0-25);
 }
 .skills_name{
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 400;
+}
+.skills_number{
+    font-size: 1.3rem;
 }
 .skills_bar,
 .skills_percentage{
-    height: 5px;
+    height: 10px;
     border-radius: .25rem;
+    font-size: 2rem;
+    display: block;
+    background-color: rgb(244, 46, 11);
 }
 .skills_bar{
     background-color: rgb(229, 239, 240);
 }
-.skills_percentage{
-    display: block;
-    background-color: #0ef;
-}
 .skills_html{
-    width: 80%;
+    width: 90%;
 }
 .skills_css{
-    width: 80%;
+    width: 90%;
 }
 .skills_js{
-    width: 60%;
+    width: 80%;
+}
+.skills_react{
+    width: 80%;
+}
+.skills_redux{
+    width: 75%;
+}
+.skills_appwrite{
+    width: 80%;
+}
+.skills_restapi{
+    width: 75% ;
 }
 .skills_python{
     width: 60%;
@@ -372,9 +388,6 @@ span{
 }
 .skills_langjs{
     width: 70%;
-}
-.skills_react{
-    width: 65%;
 }
 .skills_git{
     width: 95%;
